@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Unbounded Racing</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: white;
+  scroll-behavior: smooth;
+}
+header {
+  background: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background: #111;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  height: 500px;
+  background: url('https://images.unsplash.com/photo-1511919884226-fd3cad34687c') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1 {
+  font-size: 50px;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+}
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  width: 260px;
+  border-radius: 10px;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: red;
+  border: none;
+  color: white;
+}
+.pricing {
+  background: #111;
+  padding: 40px;
+}
+footer {
+  background: black;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>UNBOUNDED RACING</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#fleet">Fleet</a>
+  <a href="#track">Track</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#book">Book</a>
+  <a href="#about">About</a>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero">
+  <h1>DRIVE WHAT YOU CAN’T OWN</h1>
+</section>
+
+<!-- GOAL -->
+<section class="section" style="background:#111;">
+  <h2>Our Mission</h2>
+  <p>
+    At <strong>Unbounded Racing</strong>, our mission is simple: 
+    to give thrill-seekers and car enthusiasts the chance to drive high-performance, 
+    fully modified vehicles on professional-grade tracks in a safe and controlled environment. 
+    Whether you want to drift, race, or just feel the raw power of a supercar, 
+    our goal is to provide an unforgettable experience for every driver.
+  </p>
+</section>
+
+<!-- FLEET -->
+<section id="fleet" class="section">
+  <h2>Our Fleet</h2>
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZUYJKG-XfE0GHh-zvPNquhAkFCblj18ATffffRfo2iYphjTByUhgLAsoO&s=10" alt="Chevy Camaro SS">
+      <h3>Camaro SS</h3>
+      <button onclick="document.getElementById('book').scrollIntoView()">Book Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn11.bigcommerce.com/s-3aotedqsls/product_images/uploaded_images/robert-s-2018-hellcat-challenger-on-weld-racing-drag-wheels-18x5-fronts-and-17x11-beadlock-rears-4.jpeg" alt="Dodge Hellcat">
+      <h3>Dodge Hellcat</h3>
+      <button onclick="document.getElementById('book').scrollIntoView()">Book Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1EjIHEfqWZOKSAw4aXzUWij3rCCeXh1oYIS1N6ig_zlMS-kY59IkXk4k&s=10" alt="Nissan GTR">
+      <h3>Nissan GTR</h3>
+      <button onclick="document.getElementById('book').scrollIntoView()">Book Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://www.fsperformanceengineering.com/cdn/shop/products/toyota-supra-mk4-carbon-fiber-drag-wing-by-mf-127881_535x.jpg?v=1709073785" alt="Toyota Supra">
+      <h3>Toyota Supra</h3>
+      <button onclick="document.getElementById('book').scrollIntoView()">Book Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.speednik.com/powerautorax55/wp-content/blogs.dir/1/files/2023/09/show-quality-2000-horsepower-mustang-goes-drag-racing-2023-09-27_08-43-09_173182.jpg" alt="Ford Mustang GT">
+      <h3>Foxbody</h3>
+      <button onclick="document.getElementById('book').scrollIntoView()">Book Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM0-QR66VaMUdTXOhNsl-_UXQE7wXYQwuEzfyz78Ijvzs7M9pfbraRg_c&s=10">
+      <h3>BMW M4</h3>
+      <button onclick="document.getElementById('book').scrollIntoView()">Book Now</button>
+    </div>
+
+    <!-- FIXED AUDI -->
+    <div class="card">
+      <img src="https://autoid.co/cdn/shop/articles/top-5-modifications-for-audi-r8-4s-facelift-8024359_289200cd-81a1-4587-92a7-d779a3219ab5.jpg?v=1771947099&width=2048">
+      <h3>Audi R8</h3>
+      <button onclick="document.getElementById('book').scrollIntoView()">Book Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://www.exoticshunter.com/imagetag/508/main/l/Used-2015-Lamborghini-Huracan-LP-610-4-Tastefully-Modified-w-Full-Stealth-PPF-+-Soul-Racing-Exhaust-1699029150.jpg">
+      <h3>Lamborghini Huracan</h3>
+      <button onclick="document.getElementById('book').scrollIntoView()">Book Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://www.topgear.com/sites/default/files/2025/07/Chevrolet-2026-Corvette-ZR1X-Black-Front-Angle.jpg">
+      <h3>Corvette ZR1X</h3>
+      <button onclick="document.getElementById('book').scrollIntoView()">Book Now</button>
+    </div>
+		<div class="card">
+  <img src="https://cdn11.bigcommerce.com/s-3aotedqsls/images/stencil/original/image-manager/f-150-shelby-supersnake-weld-solana-drag-wheels.jpg?t=1723206915">
+  <h3>Ford F-150</h3>
+  <p>Powerful truck for raw performance and control</p>
+  <button onclick="document.getElementById('book').scrollIntoView()">Book Now</button>
+</div>
+
+<div class="card">
+  <img src="https://cdn.speednik.com/powerautorax55/wp-content/blogs.dir/1/files/imp/sites/4/2017/09/2018-Chevrolet-Camaro-ZL1-1LE-001-1024x680.jpg">
+  <h3>Camaro ZL1 1LE</h3>
+  <p>High-performance muscle with track-ready upgrades</p>
+  <button onclick="document.getElementById('book').scrollIntoView()">Book Now</button>
+</div>
+
+  </div>
+</section>
+
+<!-- TRACK -->
+<section id="track" class="section">
+  <h2>Tracks</h2>
+  <div class="cards">
+
+   <div class="card">
+      <img src="https://www.atlantamotorsportspark.com/wp-content/uploads/DJI_20230715200513_0085_D-HDR-1.jpg.webp" alt="Circuit Track">
+      <h3>Circuit Track</h3>
+      <p>Full lap track for top-speed runs</p>
+      <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">Book Now</button>
+   </div>
+
+		
+
+    <div class="card">
+      <img src="https://www.thedrive.com/wp-content/uploads/2023/07/06/357720954_786715889856339_548222.jpeg?strip=all&quality=85" alt="Roll Racing Track">
+      <h3>Roll Racing/Drag Track</h3>
+      <p>Straight line drag and acceleration runs</p>
+      <button onclick="document.getElementById('book').scrollIntoView({behavior:'smooth'})">Book Now</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="pricing">
+  <h2>Pricing</h2>
+  <p>Starting at $199</p>
+	  <p>Premium Packages Available</p>
+</section>
+
+<!-- BOOK -->
+<section id="book" class="section">
+  <h2>Book Your Experience</h2>
+  <p>Email: bookings@unboundedracing.com</p>
+  <p>Phone: (214) 791-8044</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section" style="background:#111;">
+  <h2>About Me</h2>
+  <p>
+    My name is <strong>Jacob Rodriguez</strong>, and I founded Unbounded Racing.
+    From a lifelong passion for cars and performance driving. I was born on 09/05/2007, 
+    and ever since I was young, I’ve been deeply interested in vehicles — how they work, 
+    how they perform, and how they can be pushed to their limits.
+  </p>
+
+  <p>
+    Over the years, that interest turned into real hands-on experience. From learning 
+    about car modifications to working on vehicles and understanding performance builds, 
+    I’ve developed a strong connection to the automotive world. What started as a hobby 
+    quickly became something much bigger — a vision.
+  </p>
+
+  <p>
+    Velocity Drive Experience was created to give others the opportunity to experience 
+    what most people only dream about — driving high-performance, fully modified cars 
+    on real tracks in a safe and controlled environment. Not everyone has access to 
+    these types of vehicles, and this business is about making that experience possible.
+  </p>
+
+  <p>
+    My goal is to build more than just a business — I want to create a place where people 
+    can feel adrenaline, excitement, and passion for cars all in one experience. Whether 
+    it's your first time behind the wheel of a powerful car or you're already an enthusiast, 
+    this is a place built for you.
+  </p>
+
+  <p>
+    This is just the beginning, and I’m committed to growing Velocity Drive Experience 
+    into something unforgettable.
+  </p>
+</section>
+
+<footer>
+  © 2026 Unbounded Racing
+</footer>
+
+</body>
+</html>
